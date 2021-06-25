@@ -1,0 +1,88 @@
+
+
+body {
+	background: #222;
+}
+
+
+.container {
+	display: flex;
+	background: #7C6D5E;
+	width: 1500px;
+	height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid black;
+	}
+
+	img {
+		height: 600px;
+		margin-top: 50px;
+		margin-left: 1050px;
+		border-radius: 15px;
+		box-shadow: 20px 10px 15px #222;
+		position: relative;
+	}
+	.texto {
+		position: absolute;
+		width: 65%;
+		padding: 30px;
+		top: 120px;
+		font-size: 30px;
+		font-weight: 400px;
+		font-family: 'Fira Sans', sans-serif;
+		color: #222;
+	}
+
+	.titulo {
+		left: 20px;
+		padding: 10px;
+		top: 20px;
+		font-size: 80px;
+		font-family: 'Bebas Neue', cursive;
+		position: absolute;
+	}
+	.boton {
+		width: 350px;
+		height: 50px;
+		position: absolute;
+		top: 105px;
+		left: 225px;
+		background: linear-gradient(to bottom, #B40000, #570909);
+		border: 2px solid black;
+		box-shadow: 10px 5px 10px #222;
+		border-radius: 10px;
+		font-size: 25px;
+		font-family: 'Fira Sans', sans-serif;
+	}
+	.boton:hover {
+		width: 350px;
+		height: 50px;
+		position: absolute;
+		top: 105px;
+		left: 225px;
+		background: linear-gradient(to bottom, #B40000, #390505);
+		border: 2px solid black;
+		box-shadow: 10px 5px 10px #222;
+		border-radius: 10px;
+	}
+
+	.boton:active {
+		width: 350px;
+		height: 50px;
+		position: absolute;
+		top: 105px;
+		left: 225px;
+		background: linear-gradient(to bottom, #B40000, #240202);
+		border: 2px solid black;
+		box-shadow: 10px 5px 10px #222;
+		border-radius: 10px;
+	}
+
+
+
